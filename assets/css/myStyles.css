@@ -1,0 +1,269 @@
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	line-height:30px;
+	color:#777;
+}
+
+li {
+	color:  #404040;
+}
+
+.floatRight{
+    float: right;
+}
+
+.menuFloatRight{
+	float: right !important;
+    padding-right: 2em !important;
+}
+
+.floatLeft{
+    float: left;
+}
+.paddingRight15em{
+padding-right: 15em;
+}
+
+.paddingTop3em{
+padding-top: 3em;
+}
+
+.alignCenter{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marquee {
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+#myPanel1{
+	background-color:rgba(146, 190, 212, 0.8);
+	font-size: 2em;
+	border: medium none !important;
+
+}
+
+#myPanel2{
+	background-color:rgba(146, 190, 212, 0.8);
+	font-size: 2em;
+}
+
+#myPanel3{
+	background-color:rgba(146, 190, 212, 0.8);
+	font-size: 2em;
+}
+
+
+#flamesDiv {
+	background: rgba(146, 190, 212, 0.6);
+	padding:23px;
+	margin:45px 0;
+}
+
+#choice h3 {
+	color: #F96;
+	display: block;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px gray;
+}
+#flamesDiv h3 {
+	color: #F96;
+	display: block;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px gray;
+}
+
+#flamesDiv h4 {
+	color: darkslategray;
+	display: block;
+	font-weight: 400;
+}
+
+#flamesDiv input[type="text"], 
+#flamesDiv input[type="email"], 
+#flamesDiv input[type="tel"], 
+#flamesDiv textarea {
+	 width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact {
+	background: rgba(146, 190, 212, 0.6);
+	padding:23px;
+	margin:45px 0;
+}
+
+#choice {
+	background: rgba(146, 190, 212, 0.6);
+	padding:23px;
+	margin:45px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px gray;
+}
+
+#contact h4 {
+	color: darkslategray;
+	display: block;
+	font-weight: 400;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#calculateButton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#calculateButton:hover {
+    background-color: #45a049;
+	color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact textarea {
+	 width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#myContactRow1{
+	padding-top: 2em;
+}
+
+#myContactRow2{
+	padding-top: 2em;
+}
+
+#myDetails h3 {
+	color: #F96;
+	display: block;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow: 1px 1px 2px gray;
+}
+
+h1,h2 {
+	color: #F96 !important;
+	display: block;
+	font-weight: 400;
+	text-shadow: 1px 1px 2px gray;
+}
+
+#h2ID{
+	color: gdimgray;
+	display: block;
+	font-size: 28px;
+	font-weight: 400;
+	text-shadow: 1px 1px 2px gray;
+}
+
+.jumbotronBackground{
+	background-color: rgba(146, 190, 212, 0.6);
+}
+
+iframe{
+    border-width: 0px;
+}
+
+
+/*-------*/
+a.menu-link {
+  	    float: right;
+		    display: block;
+		    padding: 1em;
+		    color: #777;			
+			height: 50px;
+			padding: 15px 15px;
+			font-size: 18px;
+			line-height: 20px;
+		}
+		nav[role=navigation] {
+			clear: both;
+			-webkit-transition: all 0.3s ease-out;  
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			max-height: 18em;
+		}
+		nav[role=navigation] ul {
+			margin: 0;
+			padding: 0;
+			border-top: 1px solid #808080;
+		}
+		nav[role=navigation] li a {
+			display: block;
+			padding: 0.8em;
+			border-bottom: 1px solid #808080;
+		}
+		
+		@media screen and (min-width: 48.25em) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav[role=navigation] ul {
+				margin: 0.25em 0 0 -0.25em;
+				border: 0;
+			}
+			
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
+	@media screen and (min-width: 990px) {
+			.writeButtonFloat {
+        	float: right !important;
+    		}
+	}
